@@ -1,0 +1,86 @@
+/* ----- Card section ----- */
+
+
+a.project-link:link,
+a.project-link:visited {
+    text-decoration: none;
+    color: #404040;
+}
+
+a.project-link:hover {
+    text-decoration: none;
+    color: #0085a1;
+}
+
+.project-card {
+    border-color: #aaa;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    padding: 10px;
+    min-height: 300px;
+    background-image: url('/img/card-bgtexture.png');
+    background-attachment: scroll;
+    /* Set static size for cards */
+    width: 230px;
+    /* Need to fix horzontal alignment for grid system */
+    float: none;
+    margin-top: 0px;
+    margin-bottom: 25px;
+    margin-right: auto;
+    margin-left: auto;
+    /*margin: 0 auto;*/
+}
+
+.project-card:hover {
+    box-shadow: 1px 1px 15px #bbb;
+}
+
+.project-card p.text-muted {
+    /*padding: 0px;*/
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+
+.seperator {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    border-color: #aaa;
+}
+
+/* ------------------------- */
+
+.stack-color {
+    color: #333;
+}
+
+.spacer {
+    height: 10px;
+    padding: 0;
+    margin: 5px;
+}
+
+.text-muted {
+    color: #808080;
+    font-size: 14px;
+}
+
+.hd-shadow {
+    text-shadow: 4px 4px 4px #aaa;
+}
+
+.post-preview-box {
+    background-image: url('/img/concrete-texture.png');
+    background-attachment: scroll;
+    border-style: 0px;
+    border-radius: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    box-shadow: 1px 1px 10px #bbb;
+}
