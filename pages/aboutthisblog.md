@@ -7,7 +7,7 @@ show-avatar: true
 comments: true
 ---
 
-## {% icon fa-question-circle %} Why do you run this Blog?
+## <i class="fa fa-question-circle" aria-hidden="true"></i> Why do you run this Blog?
 
 I spend most of my current working life with PowerShell based automation. Steadly I became the in-house
 expert for PowerShell related questions. That's why I created a style guide, tutorials and implemented review workflows.
@@ -15,7 +15,7 @@ expert for PowerShell related questions. That's why I created a style guide, tut
 Furthermore I like teaching and sharing my PowerShell knowledge. Finally I decided to start this blog to reflect my
 progress and thoughts.
 
-## {% icon fa-question-circle %} So your are located in Germany - Why do you write in English?
+## <i class="fa fa-question-circle" aria-hidden="true"></i> So your are located in Germany - Why do you write in English?
 
 I really thought a lot about this, while I was developing the blog idea. Let me try to explain my decision:
 

@@ -3,16 +3,13 @@ layout: default
 permalink: "sitemap"
 title: Sitemap
 show-avatar: true
-css: "/css/page-tables.css"
 ---
 
 ### All Posts
 
-| {% icon fa-calendar %} Date | {% icon fa-pencil-square-o %} Title | {% icon fa-hashtag %} Tags |
+| <i class="fa fa-calendar" aria-hidden="true"></i> Date | <i class="fa fa-pencil-square-o" aria-hidden="true"></i> Title | <i class="fa fa-hashtag" aria-hidden="true"></i> Tags |
 | ---- | ----- | ---- |{% for post in site.posts %}
-| {{ post.date | date: "%m/%d/%Y" }} | <a href="{{ url }}{{ post.url | remove: 'index.html' }}">{{ post.title }}</a> | {% for tag in post.tags %} {% icon fa-tag %}{{ tag }} {% endfor %}| {% endfor %}
-
-
+| {{ post.date | date: "%m/%d/%Y" }} | <a href="{{ url }}{{ post.url | remove: 'index.html' }}">{{ post.title }}</a> | {% for tag in post.tags %} <i class="fa fa-tag" aria-hidden="true"></i>{{ tag }} {% endfor %}| {% endfor %}
 
 ### All Pages
 <ul>

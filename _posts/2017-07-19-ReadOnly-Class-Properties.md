@@ -9,14 +9,13 @@ tags: [Classes, Properties, Powershell]
 comments: true
 css:
   - '/css/extend-home.css'
-  - '/css/boxes.css'
+
 ---
-{: .text-muted}
-This post is about preventing direct access to class properties with C# like getter and setter methods. It shows the
-syntax and usage of two different approaches. It ends with full github gist example you can work with in future.
+{% include about.html content="This post is about preventing direct access to class properties with C# like getter and setter methods. It shows the
+syntax and usage of two different approaches. It ends with full github gist example you can work with in future." %}
 
 {: .box-note}
-{% icon fa-commenting %} **Note:** If you're not familiar with Powershell classes I suggest you reading this awesome
+<i class="fa fa-commenting" aria-hidden="true"></i> **Note:** If you're not familiar with Powershell classes I suggest you reading this awesome
 blog article from  Michael Willis
 [Powershell v5 Classes & Concepts](https://xainey.github.io/2016/powershell-classes-and-concepts/). It covers
 everything your need to know about classes.
@@ -241,7 +240,7 @@ That's it. Now you can access to your data while using the methods `GetCrew()`, 
 in mind you can always isolate properties with methods like this as an kind of interface.
 
 {: .box-warning}
-{% icon fa-bolt %} **WARNING:** If you work with complex classes containing a huge amount of public and hidden
+<i class="fa fa-bolt" aria-hidden="true"></i> **WARNING:** If you work with complex classes containing a huge amount of public and hidden
 properties, this could get a problem. Because the way how you get and set values depends now on either it's a
 property or methods. So you could loose track of all members and how to work with them.
 
