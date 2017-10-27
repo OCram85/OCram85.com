@@ -25,7 +25,7 @@
             </a>
           </li>
           {% endif %}
-		  {% if site.author.twitter and site.footer-links-active.twitter %}
+      {% if site.author.twitter and site.footer-links-active.twitter %}
           <li>
             <a href="https://twitter.com/{{ site.author.twitter }}" title="Twitter">
               <span class="fa-stack fa-lg" aria-hidden="true">
@@ -36,7 +36,7 @@
             </a>
           </li>
           {% endif %}
-	  {% if site.author.reddit and site.footer-links-active.reddit %}
+    {% if site.author.reddit and site.footer-links-active.reddit %}
           <li>
             <a href="https://reddit.com/u/{{ site.author.reddit }}" title="Reddit">
               <span class="fa-stack fa-lg" aria-hidden="true">
@@ -58,7 +58,7 @@
             </a>
           </li>
           {% endif %}
-		  {% if site.author.email and site.footer-links-active.email %}
+      {% if site.author.email and site.footer-links-active.email %}
           <li>
             <a href="mailto:{{ site.author.email }}" title="Email me">
               <span class="fa-stack fa-lg" aria-hidden="true">
@@ -69,7 +69,7 @@
             </a>
           </li>
           {% endif %}
-		  {% if site.author.linkedin and site.footer-links-active.linkedin %}
+      {% if site.author.linkedin and site.footer-links-active.linkedin %}
           <li>
             <a href="https://linkedin.com/in/{{ site.author.linkedin }}" title="LinkedIn">
               <span class="fa-stack fa-lg" aria-hidden="true">
@@ -80,7 +80,7 @@
             </a>
           </li>
           {% endif %}
-		  {% if site.author.xing and site.footer-links-active.xing %}
+      {% if site.author.xing and site.footer-links-active.xing %}
           <li>
             <a href="https://www.xing.com/profile/{{ site.author.xing }}" title="Xing">
               <span class="fa-stack fa-lg" aria-hidden="true">
@@ -91,7 +91,7 @@
             </a>
           </li>
           {% endif %}
-		  {% if site.author.stackoverflow and site.footer-links-active.stackoverflow %}
+      {% if site.author.stackoverflow and site.footer-links-active.stackoverflow %}
           <li>
             <a href="https://stackoverflow.com/users/{{ site.author.stackoverflow }}" title="StackOverflow">
               <span class="fa-stack fa-lg" aria-hidden="true">
@@ -157,7 +157,7 @@
             </a>
           </li>
         {% endif %}
-		  {% if site.footer-links-active.rss %}
+      {% if site.footer-links-active.rss %}
           <li>
             <a href="{{ '/feed.xml' | prepend: site.baseurl }}" title="RSS">
               <span class="fa-stack fa-lg" aria-hidden="true">
@@ -168,7 +168,7 @@
             </a>
           </li>
           {% endif %}
-      {% if site.author.steam and site.footer-links-active.steam %}
+          {% if site.author.steam and site.footer-links-active.steam %}
           <li>
             <a href="https://steamcommunity.com/id/{{ site.author.steam }}" title="Steam">
               <span class="fa-stack fa-lg" aria-hidden="true">
@@ -203,20 +203,30 @@
           {% endif %}
         </ul>
         <p class="copyright text-muted">
-		  {{ site.author.name }}
-		  &nbsp;&bull;&nbsp;
-		  {{ site.time | date: '%Y' }}
+      {{ site.author.name }}
+      &nbsp;&bull;&nbsp;
+      {{ site.time | date: '%Y' }}
 
-		  {% if site.url-pretty %}
-		  &nbsp;&bull;&nbsp;
-		  <a href="{{ site.url }}">{{ site.url-pretty }}</a>
-		  {% endif %}
-	    </p>
-	        <!-- Please don't remove this, keep my open source work credited :) -->
-		<p class="theme-by text-muted">
-		  Theme by
-		  <a href="http://deanattali.com/beautiful-jekyll/">beautiful-jekyll</a>
-		</p>
+      {% if site.url-pretty %}
+      &nbsp;&bull;&nbsp;
+      <a href="{{ site.url }}">{{ site.url-pretty }}</a>
+      {% endif %}
+      &nbsp;&bull;&nbsp;
+      <a href="{{ '/impressum' | prepend: site.baseurl }}"> Impressum </a>
+      &nbsp;&bull;&nbsp;
+      <a href="{{ '/sitemap' | prepend: site.baseurl }}"> Sitemap </a>
+      </p>
+          <!-- Please don't remove this, keep my open source work credited :) -->
+    <p class="theme-by text-muted">
+      Theme based on
+      <a href="http://deanattali.com/beautiful-jekyll/">beautiful-jekyll</a>.</br>
+      Background pattern from <a href="https://www.toptal.com/designers/subtlepatterns/">Subtle Patterns</a>
+    </p>
+    <p>
+    <a href="https://ci.appveyor.com/project/OCram85/ocram85-github-io">
+      <img src="https://ci.appveyor.com/api/projects/status/ijefqc1m02kkekyh?svg=true" class="img-responsive center-block" data-toggle="tooltip" title="Build [[BUILD_NUMBER]]">
+    </a>
+    </p>
       </div>
     </div>
   </div>
