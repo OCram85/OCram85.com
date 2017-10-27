@@ -11,3 +11,7 @@ input.gsc-input,
   box-sizing: content-box;
   line-height: normal;
 }
+
+table tbody tr:hover {
+  background-color: unset;
+}
