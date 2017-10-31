@@ -29,7 +29,7 @@ before_build:
   - ps: Invoke-BumpBuildNumber
 
 build_script:
-  - ps: Invoke-BuildScript
+  - ps: Invoke-BuildScript -verbose
 
 deploy_script:
-  - ps: Invoke-Deploy
+  - ps: Invoke-Deploy -verbose
