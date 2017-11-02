@@ -15,3 +15,20 @@ input.gsc-input,
 table tbody tr:hover {
   background-color: unset;
 }
+
+
+table tr {
+  border-top: unset;
+}
+
+table tr th,
+table tr td {
+  border: unset;
+  padding:unset;
+  vertical-align: top;
+}
+
+.gsc-search-box:hover {
+  background-color: unset;
+  vertical-align: top;
+}
