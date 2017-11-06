@@ -10,7 +10,13 @@
             </span>
             -Name
             <span class="about-font-string">
-                    'About_{{ page.title | remove: " "}}'
+                {%- assign about_size = page.title | size -%}
+                {%- if about_size >= 35 -%}
+                    {% assign about = "ThisPage" %}
+                {% else %}
+                    {% assign about = page.title | camelcase | replace: " ", "" %}
+                {% endif %}
+                'About_{{ about }}'
             </span>
         </p>
     </div>
