@@ -2,6 +2,7 @@
 layout: post
 title: Page Summaries in Powershell Style
 subtitle: ...made with include files and liquid tags
+excerpt: "This post shows how to create simple page summaries for those who just need the facts!"
 image: "/img/image/jekyll_post.jpg"
 show-avatar: true
 category: Jekyll
@@ -9,9 +10,6 @@ tags: ["PageSummary", "Jekyll"]
 comments: true
 googlefonts: ["Share+Tech+Mono"]
 ---
-
-{: .text-muted}
-This post shows how to create simple page summaries for those who just need the facts!
 
 I often start writing a post or page and end up with much more content than I thought at the beginning.
 So I started adding a little summary section like this:
@@ -33,15 +31,23 @@ This works perfect but now it's time to create something more pleasant.
 
 So I started working with include files and ended with this:
 
-{% include about.html content="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet." %}
+{% include about.html caption="About_FooBar" content="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet." %}
 
 
 It's done by a simple `include` statement which uses the given file in the `_includes` folder and parses the
 content. You can use it on every page or post you want a content summary.
 
-```console
-{{ "{% include about.html content=Some awesome content summary goes in here.... " }}%}
+The about.html include takes to optional parameters:
+
+- **caption**: You can specify a custom caption. If you don't define it uses the page title. If the title has more
+  than 35 chars it gets truncated.
+- **content**: Define your content with this if you don't want to use the `page.excerpt` value.
+
+{% raw %}
+```powershell
+{% include about.html caption="About_Foobar" content="Some awesome content summary goes in here...." %}
 ```
+{% endraw %}
 
 Detailed features in `about.html`:
 

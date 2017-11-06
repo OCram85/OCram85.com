@@ -10,19 +10,27 @@
             </span>
             -Name
             <span class="about-font-string">
-                {%- assign about_size = page.title | size -%}
-                {%- if about_size >= 35 -%}
-                    {% assign about = "ThisPage" %}
-                {% else %}
-                    {% assign about = page.title | camelcase | replace: " ", "" %}
-                {% endif %}
-                'About_{{ about }}'
+                {%- if include.caption-%}
+                    {{ include.caption }}
+                {%- else -%}
+                    {%- assign about_size = page.title | size -%}
+                    {%- if about_size >= 35 -%}
+                        {% assign about = "ThisPage" %}
+                    {% else %}
+                        {% assign about = page.title | camelcase | replace: " ", "" %}
+                    {% endif %}
+                    'About_{{ about }}'
+                {%- endif -%}
             </span>
         </p>
     </div>
     <div class="about-container-content  collapse" id="aboutcontent">
         <p class="about-font-out">
-            {{ include.content -}}
+            {% if include.content %}
+                {{ include.content}}
+            {% else %}
+                {{ page.excerpt }}
+            {% endif %}
             <span class="blinking-cursor">|</span>
         </p>
     </div>

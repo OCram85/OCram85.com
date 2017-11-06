@@ -2,6 +2,8 @@
 layout: post
 title: "The Debugger Tales #1"
 subtitle: Environment Variables In Scheduled Tasks
+excerpt: "This post covers a short story about why you shouldn't use profile related environment vars in
+scripts. Especially if you need to run them as scheduled tasks."
 image: /img/image/tdt1.png
 show-avatar: true
 bigimg: /img/bigimg/tdt_back.png
@@ -10,15 +12,10 @@ tags: [The Debugger Tales, Scheduled Tasks, Environment Vars]
 
 # ---- Theme based optional vars ---- #
 comments: true
-css:
-  - '/css/boxes.css'
 
 # use-site-title: # (false) | true
 ---
-{: .text-muted}
-This post covers a short story about why you shouldn't use profile related environment vars in
-scripts. Especially if you need to run them as scheduled tasks.
-
+{% include about.html %}
 ## The Scenario
 I recently worked on a controller script to synchronize new active directory users with a two-factor authentication
 solution. The controller script itself calls different functions from preexisting modules. It is triggered by the

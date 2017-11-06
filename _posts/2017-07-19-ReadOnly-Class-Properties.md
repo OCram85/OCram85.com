@@ -2,6 +2,8 @@
 layout: post
 title:  Powershell Classes with readonly properties
 subtitle: A short story about how to create and use them.
+excerpt: "This post is about preventing direct access to class properties with C# like getter and setter methods.
+It shows the syntax and usage of two different approaches. It ends with full github gist example you can work with in future."
 image: /img/image/vader_cube.png
 bigimg: /img/bigimg/vader_wide.png
 category: Powershell
@@ -11,8 +13,7 @@ css:
   - '/css/extend-home.css'
 
 ---
-{% include about.html content="This post is about preventing direct access to class properties with C# like getter and setter methods. It shows the
-syntax and usage of two different approaches. It ends with full github gist example you can work with in future." %}
+{% include about.html %}
 
 {: .box-note}
 <i class="fa fa-commenting" aria-hidden="true"></i> **Note:** If you're not familiar with Powershell classes I suggest you reading this awesome
