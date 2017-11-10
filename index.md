@@ -3,7 +3,8 @@ layout: page
 title: Welcome
 show-avatar: true
 subtitle: ...to my personal blog about Powershell, Automation and more.
-bigimg: 'img/bg-home.jpg'
+bigimg:
+  - 'img/bigimg/bg-home.jpg': "Photo by Dariusz Sankowski on Unsplash"
 use-site-title: true
 css: '/css/extend-home.css'
 ---
