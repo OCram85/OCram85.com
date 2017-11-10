@@ -8,6 +8,14 @@ The theme is based on [beautiful-jekyll](https://github.com/daattali/beautiful-j
 I contribute to his repository and try to create PRs for all the changes I did. Chances are good that these PRs are already merged...
 
 
+## ⚠️ Warning: github-pages compatibility ⚠️
+
+I'm using jekyll plugins and extensions which are not supported with github-pages. That's why the build process fails
+if you take a look at your github-pages setting. Therefore I'm using the AppVeyor build service an pushing the final
+pages onto master.
+
+> 📓 Im going to post a tutorial about the automated AppVeyor build to help you guys...
+
 ### Page / Post Template
 > My personal template for all available *Front Matter* YAML vars
 
@@ -46,7 +54,7 @@ tags: # [tag1, tag2, tag3]
 {:toc}
 ```
 
-#### Content Summary 
+#### Content Summary
 ```
 {% include about.html content="Some awesome content summary goes in here...." %}
 ```
