@@ -14,7 +14,8 @@ Function Invoke-Install () {
     ruby --version
 
     Write-Verbose 'Installing bundler and required packages...'
-    gem install bundler
+    # Disable bundles itself, because it should already exist.
+    # gem install bundler
     bundle install
     #gem install jekyll
 }
