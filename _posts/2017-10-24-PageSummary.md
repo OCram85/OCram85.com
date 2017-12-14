@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Page Summaries in Powershell Style
+title: Page Summaries in PowerShell Style
 subtitle: ...made with include files and liquid tags
 excerpt: "This post shows how to create simple page summaries for those who just need the facts!"
 image: "/img/image/jekyll_post.jpg"

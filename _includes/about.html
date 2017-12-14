@@ -33,5 +33,24 @@
             {% endif %}
             <span class="blinking-cursor">|</span>
         </p>
+        {%- if include.footer -%}
+            <p class="about-font-default text-right">
+                {%- if include.readingtime -%}
+                    {%- assign words = page.content | number_of_words -%}
+                    <i class="fa fa-eye about-font-default" aria-hidden="true" title="Average reading time"></i>
+                    {%- if words < 360 -%}
+                        &nbsp; 1 min &nbsp;
+                    {%- else -%}
+                        &nbsp;{{- words | divided_by:180 -}}&nbsp;mins&nbsp;
+                    {%- endif -%}
+                {%- endif -%}
+                {%- if page.edit -%}
+                    <i class="fa fa-calendar-check-o about-font-default" aria-hidden="true" title="Last update"></i>&nbsp;{{- page.edit -}}
+                {%- endif -%}
+                {%- if site.author.name -%}
+                    &nbsp;<i class="fa fa-user about-font-default" aria-hidden="true" title="Author"></i>&nbsp;{{- site.author.name -}}
+                {%- endif -%}
+            </p>
+        {%- endif -%}
     </div>
 </div>
