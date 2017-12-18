@@ -183,7 +183,9 @@ exclude:
   - tools/
 
 # --- Piwik Integration --- #
-piwik_id: "2"
+piwik:
+  site_id: "2"
+  uri: "piwik.beaver-net.ovh"
 
 gist:
   noscript: false
