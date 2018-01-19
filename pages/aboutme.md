@@ -58,6 +58,7 @@ git SCM &bull; Phabricator &bull; VSCode &bull; Notepad++
 ### <i class="fa fa-briefcase" aria-hidden="true"></i> Experience
 
 #### <i class="fa fa-calendar" aria-hidden="true"></i> 2012 - 20<i class="fa fa-question" aria-hidden="true"></i><i class="fa fa-question" aria-hidden="true"></i> <i class="fa fa-building-o" aria-hidden="true"></i> [KIVBF](https://www.kivbf.de) as **SysOp** / **DevOps Engineer**
+
 <i class="fa fa-calendar-plus-o" aria-hidden="true"></i> **2015**&nbsp;&nbsp; In 2015 I started automating several platform and workload
 related use cases. Unfortunately it's closed source, so I can't talk about details. But to give a glimpse at the
 underlining technologies I can notice they were based on **Microsoft**, **VMware** and **Citrix** products.
