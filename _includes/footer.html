@@ -26,7 +26,7 @@
       <p class="copyright text-muted">
       {{ site.author.name }}
       &nbsp;&bull;&nbsp;
-      {{ site.time | date: '%Y' }}
+      <span data-toggle="tooltip" title="Last build: {{ "now" | date: "%Y-%m-%d %H:%M" -}}">{{ site.time | date: '%Y' }}</span>
 
       {% if site.url-pretty %}
       &nbsp;&bull;&nbsp;
@@ -42,11 +42,6 @@
       Theme based on
       <a href="http://deanattali.com/beautiful-jekyll/">beautiful-jekyll</a>.</br>
       Background pattern from <a href="https://www.toptal.com/designers/subtlepatterns/">Subtle Patterns</a>
-    </p>
-    <p>
-    <a href="https://ci.appveyor.com/project/OCram85/ocram85-github-io">
-      <img src="https://ci.appveyor.com/api/projects/status/atp3ce1umykavrdn?svg=true" class="img-responsive center-block" data-toggle="tooltip" title="Build [[BUILD_NUMBER]]">
-    </a>
     </p>
       </div>
     </div>
