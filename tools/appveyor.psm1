@@ -10,15 +10,17 @@ Function Invoke-Install () {
     Update-Module 'posh-git'
 
     Write-Verbose 'Setting up latest ruby version...'
-    $env:Path = $env:Path.Replace('Ruby193', 'Ruby23-x64')
+    $env:Path = $env:Path.Replace('Ruby193', 'Ruby24-x64')
     ruby --version
+    gem -v
+    bundle -v
 
     Write-Verbose 'Installing bundler and required packages...'
     # Disable bundles itself, because it should already exist.
-    # gem install bundler
+    #gem update bundler
     bundle install
-    bundle update
-    #gem install jekyll
+    # try to fix AppVeyor build error
+    #gem install i18n-0.8.6
 }
 
 Function Invoke-GitConfig () {
