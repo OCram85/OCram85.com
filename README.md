@@ -8,13 +8,13 @@ The theme is based on [beautiful-jekyll](https://github.com/daattali/beautiful-j
 I contribute to his repository and try to create PRs for all the changes I did. Chances are good that these PRs are already merged...
 
 
-## ⚠️ Warning: github-pages compatibility ⚠️
+## ⚠️ Note: github-pages compatibility ⚠️
 
-I'm using jekyll plugins and extensions which are not supported with github-pages. That's why the build process fails
-if you take a look at your github-pages setting. Therefore I'm using the AppVeyor build service an pushing the final
-pages onto master.
+I recently switched back to the native github pages builds. This means I don't use AppVeyor build engine for the
+jekyll builds anymore.
 
-> 📓 Im going to post a tutorial about the automated AppVeyor build to help you guys...
+So now it's possible for your to fork this repo and continue with the work without any other external tools or build
+steps.
 
 ### Page / Post Template
 > My personal template for all available *Front Matter* YAML vars
@@ -58,6 +58,3 @@ tags: # [tag1, tag2, tag3]
 ```
 {% include about.html content="Some awesome content summary goes in here...." %}
 ```
-
-### Build Status
-[![Build status](https://ci.appveyor.com/api/projects/status/ijefqc1m02kkekyh?svg=true)](https://ci.appveyor.com/project/OCram85/ocram85-github-io)
