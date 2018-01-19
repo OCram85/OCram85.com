@@ -17,6 +17,7 @@ Function Invoke-Install () {
     # Disable bundles itself, because it should already exist.
     # gem install bundler
     bundle install
+    bundle update
     #gem install jekyll
 }
 
