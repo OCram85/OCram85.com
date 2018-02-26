@@ -14,7 +14,7 @@ show-avatar: true
 ## Angaben gemäß § 5 TMG:
 ```
 Marco Blessing
-Am Bierkeller 2
+Kapellenstraße 12
 77815 Bühl
 ```
 
