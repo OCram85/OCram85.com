@@ -121,8 +121,8 @@
   <meta name="twitter:image" content="{{ site.url }}{{ site.avatar }}" />
   {% endif %}
 
-  {% include piwik.html %}
-
-  {% include cookieconsent.html %}
+  {% if site.matomo %}
+  {% include matomo.html %}
+  {% endif %}
 
 </head>
