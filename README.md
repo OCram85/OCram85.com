@@ -16,7 +16,7 @@ jekyll builds anymore.
 So now it's possible for your to fork this repo and continue with the work without any other external tools or build
 steps.
 
-### Page / Post Template
+## Page / Post Template
 > My personal template for all available *Front Matter* YAML vars
 
 ```YAML
@@ -43,9 +43,9 @@ tags: # [tag1, tag2, tag3]
 ---
 ```
 
-### Snippets
+## Snippets
 
-#### Table of Content
+### Table of Content
 
 ```markdown
 **Content**
@@ -54,7 +54,29 @@ tags: # [tag1, tag2, tag3]
 {:toc}
 ```
 
-#### Content Summary
+### Content Summary
 ```
-{% include about.html content="Some awesome content summary goes in here...." %}
+{% include about.html caption="Heading" content="some content"  footer=true readingtime=true %}
 ```
+
+#### Vars
+
+- **Caption:** Adds a header line.
+  - If not given the page title is used.
+  - If the title has more than 35 chars the default heading `About_ThisPage` is used
+- **Content:** Defines the content of the about box
+  - You can provide a Value with this var or use the `page.excerpt` var.
+- **footer:** enables the footer section in general
+- **readingtime:** Displays an average reading time in the footer section
+- `page.edit`: is used to define your last edit date
+- `site.author.name`: is used to display the author.
+
+### Notification boxes
+
+Use the following syntax to add the classes to you box section: `{: .box-note}`, `{.box-warning}` or `{box-error}`
+
+You can use font-awesome icons within and set a custom color like this:
+
+{: .box-note}
+<i class="fa fa-commenting icon-blue" aria-hidden="true"></i> **NOTE:** This is Notification class with a colored
+font-awesome icon. Select your color by adding these classes: `icon-blue`, `icon-yellow` or `icon-red`.
