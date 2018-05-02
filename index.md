@@ -20,7 +20,7 @@ css: '/css/extend-home.css'
       {%- assign gh-project = "Ponduit" -%}
       <a target="_blank" href="https://github.com/{{- gh-user -}}/{{- gh-project -}}" class="project-link" title="Go to Github Poject Page">
         <span class="fa-stack fa-4x">
-          <i class="fa fa-circle fa-stack-2x stack-color"></i>
+          <i class="fa fa-square fa-stack-2x stack-color"></i>
           <i class="fa fa-terminal fa-stack-1x fa-inverse"></i>
         </span>
         <h4>{{- gh-project -}}</h4>
@@ -37,7 +37,7 @@ css: '/css/extend-home.css'
       {%- assign gh-project = "PSCoverage" -%}
       <a target="_blank" href="https://github.com/{{- gh-user -}}/{{- gh-project -}}" class="project-link" title="Go to Github Poject Page">
         <span class="fa-stack fa-4x">
-          <i class="fa fa-circle fa-stack-2x stack-color"></i>
+          <i class="fa fa-square fa-stack-2x stack-color"></i>
           <i class="fa fa-file-code-o fa-stack-1x fa-inverse"></i>
         </span>
         <h4>{{- gh-project -}}</h4>
@@ -54,7 +54,7 @@ css: '/css/extend-home.css'
     {%- assign gh-project = "PSCredentialStore" -%}
       <a target="_blank" href="https://github.com/{{- gh-user -}}/{{- gh-project -}}" class="project-link" title="Go to Github Poject Page">
         <span class="fa-stack fa-4x">
-          <i class="fa fa-circle fa-stack-2x stack-color"></i>
+          <i class="fa fa-square fa-stack-2x stack-color"></i>
           <i class="fa fa-user-secret fa-stack-1x fa-inverse"></i>
         </span>
         <h4>{{- gh-project -}}</h4>
