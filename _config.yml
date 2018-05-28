@@ -14,7 +14,7 @@ baseurl: ""
 # Of course don't forget to change the username and projectname to YOUR username and project
 
 # Name of website
-title: OCram85.github.io
+title: OCram85.com
 
 # Short description of your site
 description: "A personal blog about PowerShell, Automation and more."
@@ -23,19 +23,19 @@ description: "A personal blog about PowerShell, Automation and more."
 
 # List of links in the navigation bar
 navbar-links:
-  Blog:
-    - Posts: "blog"
-    - Tags: "tags"
-  Resources:
-    - Powershell: "powershell-resources"
-  About:
-    - Me: "aboutme"
-    - This Blog: "aboutthisblog"
+#  Blog:
+#    - Posts: "blog"
+#    - Tags: "tags"
+#  Resources:
+#    - Powershell: "powershell-resources"
+#  About:
+#    - Me: "aboutme"
+#    - This Blog: "aboutthisblog"
 
 
 # --- Google custom search config --- #
 # search page name search -> /seach.md
-nav-search: "search"
+#nav-search: "search"
 # google-site-verification
 google-site-verification: 'mR7a1gt3MOM9w2PBMfwsJ2QyOwA8emkKgSFj5bvLgbU'
 
@@ -65,8 +65,8 @@ footer-link-col: "#404040"
 # Alternatively, the navbar, footer, and page background can be set to use background images
 # instead of colour
 
-navbar-img: "/img/concrete-texture.png"
-footer-img: "/img/concrete-texture.png"
+#navbar-img: "/img/concrete-texture.png"
+#footer-img: "/img/concrete-texture.png"
 # page-img: "/img/bgimage.png"
 
 # --- Footer options --- #
@@ -81,12 +81,12 @@ author:
 # You can reorder the items to define the link order.
 # If you want to add a new link that isn't here, you'll need to also edit the file _data/SocialNetworks.yml
 social-network-links:
-  github: OCram85
-  stackoverflow: "5222635/ocram85"
-  twitter: tar_honar
-  email: "marco.blessing@googlemail.com"
-  linkedin: marco-blessing-884642109
-  rss: true
+#  github: OCram85
+#  stackoverflow: "5222635/ocram85"
+#  twitter: tar_honar
+#  email: "marco.blessing@googlemail.com"
+#  linkedin: marco-blessing-884642109
+#  rss: true
 #  facebook: daattali
 #  reddit: yourname
 #  google-plus: +DeanAttali
@@ -102,10 +102,10 @@ social-network-links:
 
 # Select which share links to show in posts
 share-links-active:
-  twitter: true
-  facebook: true
+  twitter: false
+  facebook: false
   google: false
-  linkedin: true
+  linkedin: false
 
 # How to display the link to the website in the footer
 # Remove this if you don't want a link in the footer
@@ -131,10 +131,10 @@ share-links-active:
 # Uncomment the following section to enable Matomo. The opt-out parameter controls
 # whether or not you want to allow users to opt out of tracking.
 
-matomo:
-  site_id: "2"
-  uri: "piwik.beaver-net.ovh"
-  opt-out: true
+#matomo:
+#  site_id: "2"
+#  uri: "piwik.beaver-net.ovh"
+#  opt-out: true
 
 # --- Misc --- #
 # Fill in your Disqus shortname (NOT the userid) if you want to support Disqus comments
@@ -166,7 +166,7 @@ title-separator: "-"
 
 # --- Misc --- #
 # Fill in your Disqus shortname (NOT the userid) if you want to support Disqus comments
-disqus: "OCram85"
+#disqus: "OCram85"
 
 # --- Don't need to touch anything below here (but you can if you want) --- #
 
@@ -217,10 +217,10 @@ exclude:
 gist:
   noscript: false
 
-plugins:
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-gist
+#plugins:
+#  - jekyll-paginate
+#  - jekyll-sitemap
+#  - jekyll-gist
 
 # Beautiful Jekyll / Dean Attali
 # 2fc73a3a967e97599c9763d05e564189
