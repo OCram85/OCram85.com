@@ -3,7 +3,7 @@ set -x
 set -e
 
 # Global Paths
-REPOPATH="/tmp/OCram85.com"
+REPOPATH="/opt/repos/OCram85.com"
 JEKYLLDEST="/opt/www/OCram85.com"
 
 # switch to specific working dir
