@@ -132,8 +132,8 @@ share-links-active:
 # whether or not you want to allow users to opt out of tracking.
 
 matomo:
-  site_id: "2"
-  uri: "piwik.beaver-net.ovh"
+  site_id: "1"
+  uri: "matomo.beaver-net.ovh"
   opt-out: true
 
 # --- Misc --- #
