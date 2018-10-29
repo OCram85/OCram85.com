@@ -16,43 +16,46 @@ googlefonts: ["Share+Tech+Mono"]
 ## General
 
 This blog is based on Dean`s jekyll theme [beautiful-jekyll](). Due to the requirements of the GDPR, I
-reworked some parts to ensure to be compliant. Because I'm not an native English speaker or lawyer, I'm not able to
+reworked some parts to ensure to be compliant. Because I'm not a native English speaker or lawyer, I'm not able to
 provide you a fully detailed privacy policy in English, which would justice you or the German legislation.
 
-But to be as transparent as possible I'll try my best and to explain you all the relevant changes I've done and what
-kind of data will be collected.
+But to be as transparent as possible I'll try my best to explain and what kind of data will be collected.
 
 ## Shared Data Overview
 
 ### Public IP
 
-The following table shows who could get access to your public IP while browsing on my blog
-
 {: .box-note}
 <i class="fa fa-commenting icon-blue" aria-hidden="true"></i> **NOTE:** Please don't ask why we are sharing your IP with these
 providers: Technically you need an address to transfer any data through the internet !
+
+The following table shows who could get access to your public IP while browsing on this blog.
 
 | Data | Accessible By | Collected By | Used For | Retention Time |
 | :--: | :-----------: | :----------: | :------: | :-----------:- |
 | IP   | Me            | Webserver    | Security | 7 days |
 | IP   | Me            | Matomo        | Web Statistics | 7 days |
-| IP   | Disqus        | Browser Access | Comment Service | ?? |
-| IP   | cloudflare | Shields.io | ?? | ?? |
+| IP   | Disqus        | Browser Access | Comment Service | **??** |
+| IP   | cloudflare | Shields.io | **??** | **??** |
 
 
 ### Cookies
 
-These table shows what kind of cookies are used an which data they contain.
+These table shows what kind of cookies we are using.
 
 | Data | Accessible By | Collected By | Used For | Retention Time |
 | :--: | :-----------: | :----------: | :------: | :-----------:- |
-| Cookie | Disqus     | Browser Access | Comment Service | ?? |
-| Cookie | cloudflare | Shields.io | Security | ?? |
-| Cookie | Me         | Cookie Consent Feature local | | unlimited
+| Cookie | Disqus     | Browser Access | Comment Service | **??** |
+| Cookie | cloudflare | Shields.io | Security | **??** |
+| Cookie | Me         | Cookie Consent Feature local | remember your decision| unlimited
+
+{: .box-warning}
+<i class="fa fa-bolt icon-yellow" aria-hidden="true"></i> **??**: I don't know how long these services keep the
+data. In fact they collect it I have no affect to this i need to their documentation.
 
 ## Design Changes
 
-- I've added detailed [Datenschutz](/datenschutz) page which contains all needed sections requested by the GDPR.
+- I've added a detailed page called [Datenschutz](/datenschutz) which contains all needed sections requested by the GDPR.
 - I tried to removed all third party content which were delivered by any CDNs. This means I imported the theme's dependencies like:
   - Google fonts
   - FontAwesome icons
@@ -74,7 +77,7 @@ The logs will be deleted after 7 days.
 This site uses a self hosted instance of Matomo (formerly known as Piwik) to monitor the visits and traffic on this
 blog. Matomo collects your data and keeps it 7 days as default. Your data is anonymized and I can not identify or
 tag anyone directly. After this 7 days it only keeps the generated reports to show the traffic history. However,
-you are not forced to share this data. You can find the [Do-not-Track](http://piwik.beaver-net.ovh/index.php?module=CoreAdminHome&action=optOut) link in the footer section on each page or access the [opt-out featurehere](http://piwik.beaver-net.ovh/index.php?module=CoreAdminHome&action=optOut).
+you are not forced to share this data. You can find the [Do-not-Track](http://matomo.beaver-net.ovh/index.php?module=CoreAdminHome&action=optOut) link in the footer section on each page or access the [opt-out feature here](http://matomo.beaver-net.ovh/index.php?module=CoreAdminHome&action=optOut).
 
 ### Comments Feature (Disqus)
 
