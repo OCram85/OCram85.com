@@ -11,7 +11,9 @@ show-avatar: true
 > [Erstellt mit Datenschutz-Generator.de von RA Dr. Thomas Schwenke](https://datenschutz-generator.de)
 
 {: .box-note}
-Änderungen in unserer Datenschutzerklärung finden Sie in Abschnitt [Änderungen](#Änderungen)
+<i class="fa fa-commenting icon-blue" aria-hidden="true"></i> **Anmerkung:**
+Änderungen in unserer Datenschutzerklärung finden Sie in Abschnitt [Änderungen](#Änderungen).
+Weitere Artikel zum Thema Datenschutz werden in der Kategorie [Privacy](tags#Privacy) veröffentlicht.
 
 Diese Datenschutzerklärung klärt Sie über die Art, den Umfang und Zweck der Verarbeitung von personenbezogenen Daten
 (nachfolgend kurz „Daten“) innerhalb unseres Onlineangebotes und der mit ihm verbundenen Webseiten, Funktionen und
@@ -250,3 +252,4 @@ Wir binden die Schriftarten ("Google Fonts") des Anbieters Google LLC, 1600 Amph
 ## Änderungen
 
 - `2018-06-18` Veröffintlichung der Datenschutzerklädung
+- `2018-10-29` Link zu Privacy Kategorie in
