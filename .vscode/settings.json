@@ -14,5 +14,8 @@
     "editor.tabSize": 4,
     "editor.insertSpaces": true,
     // General appearance
-    "window.zoomLevel": 0
+    "window.zoomLevel": 0,
+
+    // cSpell Config
+    "cSpell.language": "en,de,de-DE"
 }
