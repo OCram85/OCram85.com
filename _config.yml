@@ -213,6 +213,7 @@ exclude:
   - Vagrantfile
   - appveyor.yml
   - tools/
+  - vendor
 
 gist:
   noscript: false
