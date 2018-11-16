@@ -4,6 +4,8 @@
 # exit on firt exitcode >0
 set -e
 
+echo "$(date) | ====== Starting jekyll autobuild ======"
+
 # Global Paths
 REPOPATH="/opt/repos/OCram85.com"
 JEKYLLDEST="/opt/www/OCram85.com"
@@ -28,3 +30,4 @@ else
   git pull
   bundle exec jekyll build -d $JEKYLLDEST
 fi
+echo "$(date) | ====== done. ======"
