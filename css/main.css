@@ -780,6 +780,7 @@ color: #f1c40f;
   border-width: 1px;
   border-radius: 8px 8px 0px 0px;
   padding: 2px 8px 2px 8px;
+  width: 100%;
 }
 
 .about-container-header:hover {
@@ -808,6 +809,7 @@ color: #f1c40f;
   border-radius: 0px 0px 8px 8px;
   padding: 5px 8px 5px 8px;
   margin-top: -1px;
+  width: 100%;
 }
 
 .about-font-default {
