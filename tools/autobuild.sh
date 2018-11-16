@@ -1,6 +1,8 @@
 #!/bin/bash
+
 # debug mode
 #set -x
+
 # exit on firt exitcode >0
 set -e
 
