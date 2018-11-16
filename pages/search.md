@@ -5,9 +5,9 @@ title: "Search"
 css: "/css/search.css"
 ---
 
-# Search OCram85.github.io
+# Search OCram85.com
 
-### Using the Amazing Google
+### Using the amazing Google
 
 <div id="google-custom-search">
 <script>
