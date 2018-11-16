@@ -16,10 +16,10 @@ LOCALECOMMIT=$(git rev-parse HEAD)
 REMOTECOMMIT=$(git rev-parse origin/master)
 
 if [ "$LOCALECOMMIT" = "$REMOTECOMMIT" ]; then
-  echo "Skipping jekyll autobuild..."
+  echo "$(date) | Skipping jekyll autobuild..."
 
 else
-  echo "Updating git repo..."
+  echo "$(date) | Updating git repo..."
 
   # reset current repo state and get latest changes
   git reset master --hard
