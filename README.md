@@ -1,6 +1,6 @@
 # About
 
-This is repo contains the source files of my personal jekyll based blog.
+This is repository contains the source files of my personal jekyll based blog.
 The theme is based on [beautiful-jekyll](https://github.com/daattali/beautiful-jekyll) by Dean Attali.
 
 ❓ **If you like my customization, start with cloning the origin repository by Dean and follow his readme article!**
@@ -10,11 +10,16 @@ I contribute to his repository and try to create PRs for all the changes I did. 
 
 ## ⚠️ Note: github-pages compatibility ⚠️
 
-I recently switched back to the native github pages builds. This means I don't use AppVeyor build engine for the
-jekyll builds anymore.
+I recently had moved away from github-pages for hosting my blog. To fulfill [GDPR](https://eugdpr.org/) I'm now
+hosting the blog on my on. Additionally I removed al external resources and integrated them. I you need more details
+about the changes see [Page And Privacy Updates](https://ocram85.com/2018-10-29-PrivacyUpdate/).
 
-So now it's possible for your to fork this repo and continue with the work without any other external tools or build
-steps.
+This site is still github-pages compatible!
+
+## :wrench: Custom Build Process :wrench:
+
+If you are interested about my custom build process you can take a look at the [autobuild.sh](./tools/autobuild.sh) script.
+This script is called by a cronjob and starts building the blog if there were new commits on the `master` branch.
 
 ## Page / Post Template
 > My personal template for all available *Front Matter* YAML vars
@@ -73,7 +78,7 @@ tags: # [tag1, tag2, tag3]
 
 ### Notification boxes
 
-Use the following syntax to add the classes to you box section: `{: .box-note}`, `{.box-warning}` or `{box-error}`
+Use the following syntax to add the classes to you box section: `{: .box-note}`, `{: .box-warning}` or `{: .box-error}`
 
 You can use font-awesome icons within and set a custom color like this:
 
