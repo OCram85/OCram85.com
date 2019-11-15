@@ -30,6 +30,12 @@ else
   # reset current repo state and get latest changes
   git reset master --hard
   git pull
+  
+  # update deps
+  rm Gemfile.lock
+  bundle install
+  
+  # refresh jekyll pages
   bundle exec jekyll build -d $JEKYLLDEST
 fi
 echo "$(date) | ====== done. ======"
