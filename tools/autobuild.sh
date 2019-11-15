@@ -32,7 +32,7 @@ else
   git pull
   
   # update deps
-  rm Gemfile.lock
+  rm -fv ./Gemfile.lock
   bundle install
   
   # refresh jekyll pages
