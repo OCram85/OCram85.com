@@ -27,6 +27,8 @@ Besides I'm very interested in **PowerShell**, **DevOps**, **Phabricator** and *
 exploring [Github](https://github.com/){:target="_blank"}, [Stackoverflow](https://stackoverflow.com/){:target="_blank"} or [Powershell.org](https://powershell.org/){:target="_blank"}
 and discovering new stuff.
 
+Additionally I love building **CI/CD Stacks** with different open-source products to spread the word of **DevOps** and **Containerization**.
+
 ### <i class="fa fa-cubes" aria-hidden="true"></i> Skills
 *Here comes a list of subjects I've worked with, grouped by topics...*
 
@@ -57,7 +59,28 @@ git SCM &bull; Phabricator &bull; VSCode &bull; Notepad++
 
 ### <i class="fa fa-briefcase" aria-hidden="true"></i> Experience
 
-#### <i class="fa fa-calendar" aria-hidden="true"></i> 2012 - 20<i class="fa fa-question" aria-hidden="true"></i><i class="fa fa-question" aria-hidden="true"></i> <i class="fa fa-building-o" aria-hidden="true"></i> [KIVBF](https://www.kivbf.de) as **SysOp** / **DevOps Engineer**
+#### <i class="fa fa-calendar" aria-hidden="true"></i> 2018 - 20<i class="fa fa-question" aria-hidden="true"></i><i class="fa fa-question" aria-hidden="true"></i> <i class="fa fa-building-o" aria-hidden="true"></i> [ITEOS](https://www.iteos.de) as **SysOp** / **DevOps Engineer**
+
+<i class="fa fa-calendar-plus-o" aria-hidden="true"></i> **2019**&nbsp;&nbsp; Internal Self Service Portal
+
+I spent the second half of the year creating a single-page application based on [Vue.js](https://vuejs.org/) for visualizing product changelog and configuration details.
+Therefore I had to relearn javaScript and started working with the [materialize-css](https://materializecss.com/) framework and other well known node modules.
+
+<i class="fa fa-calendar-plus-o" aria-hidden="true"></i> **2019**&nbsp;&nbsp; Release Management Tool MkII
+
+First part of the year I was focused on expanding the Release Management tools and workflows for our cloud hosted applications:
+
+- Added automated aggregation of release details for each hosted application.
+- Added changelog workflow for documenting releases.
+- Defined rollout life cycle states for each new release.
+- ITIL compliant syncing of the release data into centralized CMDB.
+
+<i class="fa fa-calendar-plus-o" aria-hidden="true"></i> **2018**&nbsp;&nbsp; KIVBF merged with its partners to form ITEOS in order to be able to offer uniform services. After adjusting the internal organizational structure, I'm now part of the business unit 4.2 *(Integration-, Security- & Application Managent)*.
+My previous team was reassigned to this new unit as well, and was renamed into CAFS *(Cloud- & Application-Frontend-Services)*.
+So my range of tasks changed slightly.
+
+
+#### <i class="fa fa-calendar" aria-hidden="true"></i> 2012 - 2018 <i class="fa fa-building-o" aria-hidden="true"></i> [KIVBF](https://www.kivbf.de) as **SysOp** / **DevOps Engineer**
 
 <i class="fa fa-calendar-plus-o" aria-hidden="true"></i> **2015**&nbsp;&nbsp; In 2015 I started automating several platform and workload
 related use cases. Unfortunately it's closed source, so I can't talk about details. But to give a glimpse at the
