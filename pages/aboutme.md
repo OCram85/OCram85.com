@@ -59,7 +59,7 @@ git SCM &bull; Phabricator &bull; VSCode &bull; Notepad++
 
 ### <i class="fa fa-briefcase" aria-hidden="true"></i> Experience
 
-#### <i class="fa fa-calendar" aria-hidden="true"></i> 2018 - 20<i class="fa fa-question" aria-hidden="true"></i><i class="fa fa-question" aria-hidden="true"></i> <i class="fa fa-building-o" aria-hidden="true"></i> [ITEOS](https://www.iteos.de) as **SysOp** / **DevOps Engineer**
+#### <i class="fa fa-calendar" aria-hidden="true"></i> 2018 - 20<i class="fa fa-question" aria-hidden="true"></i><i class="fa fa-question" aria-hidden="true"></i> <i class="fa fa-building-o" aria-hidden="true"></i> [Komm.ONE](https://komm.one) as **SysOp** / **DevOps Engineer**
 
 <i class="fa fa-calendar-plus-o" aria-hidden="true"></i> **2019**&nbsp;&nbsp; Internal Self Service Portal
 
@@ -75,7 +75,7 @@ First part of the year I was focused on expanding the Release Management tools a
 - Defined rollout life cycle states for each new release.
 - ITIL compliant syncing of the release data into centralized CMDB.
 
-<i class="fa fa-calendar-plus-o" aria-hidden="true"></i> **2018**&nbsp;&nbsp; KIVBF merged with its partners to form ITEOS in order to be able to offer uniform services. After adjusting the internal organizational structure, I'm now part of the business unit 4.2 *(Integration-, Security- & Application Managent)*.
+<i class="fa fa-calendar-plus-o" aria-hidden="true"></i> **2018**&nbsp;&nbsp; KIVBF merged with its partners to form Komm.ONE in order to be able to offer uniform services. After adjusting the internal organizational structure, I'm now part of the business unit 4.2 *(Integration-, Security- & Application Managent)*.
 My previous team was reassigned to this new unit as well, and was renamed into CAFS *(Cloud- & Application-Frontend-Services)*.
 So my range of tasks changed slightly.
 
