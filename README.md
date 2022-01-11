@@ -1,3 +1,5 @@
+> **🆕  This repo is now archived. I recently switched to a hugo based [Blog](https://github.com/OCram85/Blog)🆕**
+
 # About
 
 This is repository contains the source files of my personal jekyll based blog.
